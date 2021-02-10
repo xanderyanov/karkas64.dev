@@ -1,0 +1,276 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1300px) {
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .header {
+        width: 100%;
+
+    }
+
+    .topMenu__outer {
+        width: 100%;
+    }
+
+    .slider1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .content__outer {
+        width: 100%;
+        margin: auto;
+    }
+
+    .manufacturer {
+        width: 100%;
+        margin: auto;
+    }
+
+    .catalog__outer {
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+    }
+
+    .catalog {
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .catalog__item {
+        padding: 5px;
+        width: 20%;
+    }
+
+    .gallery__outer {
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+    }
+
+    .gallery {
+        margin: 0 -5px;
+    }
+
+    .gallery__item {
+        padding: 0 5px 5px 5px;
+        width: 20%;
+    }
+
+    .form1__outer {
+        width: 100%;
+        margin: auto;
+    }
+
+    .footer {
+        width: 100%;
+        margin: auto;
+    }
+
+    /*.jcarousel {*/
+    /*width: 100%;*/
+    /*margin: auto;*/
+    /*}*/
+
+}
+
+@media only screen and (max-width: 1024px) {
+    .header__logo {
+        width: 30%;
+    }
+
+    .catalog__item {
+        width: 25%;
+    }
+
+    .gallery__item {
+        width: 25%;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+    .menuButton__outer {
+        display: block;
+    }
+
+    .topMenu {
+        flex-direction: column;
+        padding: 10px 0;
+        display: none;
+    }
+
+    .topMenu li {
+        display: block;
+    }
+
+    .topMenu li a {
+        display: block;
+        text-align: center;
+    }
+
+    /*.jcarousel-wrapper {*/
+    /*position: relative;*/
+    /*padding: 0 25px;*/
+    /*}*/
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+    .header {
+        flex-wrap: wrap;
+        padding: 0 0 10px 0;
+    }
+
+    .header__goForm {
+        order: 0;
+        width: 100%;
+        border-radius: 0px;
+        margin-bottom: 10px;
+
+    }
+
+    .header__logo {
+        order: 1;
+        margin-left: 10px;
+    }
+
+
+    .formZ {
+        flex-direction: column;
+    }
+
+    .formZ input {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+    .submitZ {
+        width: 90%;
+    }
+
+    .catalog__item {
+        width: 33.3333%;
+    }
+
+    .gallery__item {
+        width: 33.3333%;
+    }
+
+    .content__inner {
+        padding: 10px;
+    }
+
+    .form1 input {
+        width: 100%;
+        margin-bottom: 10px;
+
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .copyright{
+        margin-bottom: 10px;
+    }
+    .footerMenu{
+        margin-bottom: 10px;
+    }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+    .header {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .header__goForm {
+        order: 0;
+        width: 100%;
+        border-radius: 0px;
+        margin-bottom: 10px;
+
+    }
+
+    .header__logo {
+        width: 60%;
+        order: 1;
+        margin: 0 0 10px 0;
+    }
+
+
+
+    .slider1__area {
+        display: none;
+    }
+
+    .catalog__item {
+        width: 50%;
+    }
+
+    .gallery__item {
+        width: 50%;
+    }
+
+    .content__inner {
+        padding: 5px;
+    }
+
+    .content img {
+        margin: 0 0 10px 0 !important;
+    }
+
+    .content ul li,
+    .content ol li {
+        margin: 0 0 5px 0;
+        padding: 0 0 0 5px;
+    }
+    .footerMenu{
+        flex-direction: column;
+    }
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+    .catalog__item {
+        width: 100%;
+    }
+
+    .gallery__item {
+        width: 100%;
+    }
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+
+}
