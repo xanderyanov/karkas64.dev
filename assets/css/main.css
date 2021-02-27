@@ -1156,6 +1156,7 @@ body {
 
 .portfolio__itemOuter {
   padding: 10px 0;
+  width: 100%;
 }
 
 .portfolio__item {
@@ -1165,7 +1166,7 @@ body {
 }
 
 .portfolio__itemImg {
-  width: 30%;
+  width: 20%;
 }
 .portfolio__itemImg img {
   width: 100%;
@@ -1174,7 +1175,7 @@ body {
 
 .portfolio__itemInfo {
   padding: 10px;
-  width: 70%;
+  width: 80%;
   display: flex;
   flex-direction: column;
 }
